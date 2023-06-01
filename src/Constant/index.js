@@ -25,6 +25,9 @@ import {
     threejs,
     upwork,
     tisol,
+    project1,
+    project2,
+    project3,
   } from "../assets";
   
   export const navLinks = [
@@ -159,19 +162,7 @@ import {
       ],
     },
    
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+
   ];
   
   const testimonials = [
@@ -203,67 +194,63 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "NEW YORK PRIVATE CHARTER APP",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Piloted the creation of a private jet charter application allowing user to book jets and view real-time updates,complete with a smooth scrolling experience.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Ruby on Rails",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: project3,
+      source_code_link: "https://github.com/Cresus9/capstone_project-private_jet_charter",
     },
     {
-      name: "Job IT",
+      name: "WELLNESS CENTER",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed a hospital management application featuring doctor and patient portals as well as an admin validations and functionalities to better organize clients and hospital staff.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Ruby on Rails",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: project2,
+      source_code_link: "https://github.com/jefftmarks/city-wellness-center",
     },
     {
-      name: "Trip Guide",
+      name: "REAL ESTATE APPLICATION",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Utilized Ruby and React.js to create a real estate portfolio tracking app allowing users to sign up and manage their accounts.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: project1,
+      source_code_link: "https://github.com/Tomasmakaj/Real-Estate-App",
     },
   ];
   
