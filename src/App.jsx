@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import About from "./components/About"
+import About from "./components"
 import Contact from './Components/Contact'
 import Hero from './Components/Hero'
 import Feedbacks from './Components/Feedbacks'
