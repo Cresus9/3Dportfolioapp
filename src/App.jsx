@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
-import About from "./components"
-import Contact from './Components/Contact'
+import About from "./components/About"
+import Contact from "./Components/Contact"
 import Hero from './Components/Hero'
 import Feedbacks from './Components/Feedbacks'
 import Loader from './Components/Loader'
@@ -9,7 +9,7 @@ import Works from './Components/Works'
 import Experience from './Components/Experience'
 import Navbar from './Components/Navbar'
 import { StarsCanvas } from "./components/Canvas"
-import WrappedAbout from "./components/About"
+
 
 
 
