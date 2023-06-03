@@ -1,15 +1,14 @@
 import { BrowserRouter } from "react-router-dom"
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-// import About from "./components/About"
-// import Contact from "./Components/Contact"
-// import Hero from './Components/Hero'
-// import Feedbacks from './Components/Feedbacks'
-// import Loader from './Components/Loader'
-// import Tech from './Components/Tech'
-// import Works from './Components/Works'
-// import Experience from './Components/Experience'
-// import Navbar from './Components/Navbar'
-// import { StarsCanvas } from "./components/Canvas"
+import About from "./components/About"
+import Contact from "./Components/Contact"
+import Hero from './Components/Hero'
+import Feedbacks from './Components/Feedbacks'
+import Loader from './Components/Loader'
+import Tech from './Components/Tech'
+import Works from './Components/Works'
+import Experience from './Components/Experience'
+import Navbar from './Components/Navbar'
+import { StarsCanvas } from "./components/Canvas"
 
 
 
